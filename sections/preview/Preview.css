@@ -1,0 +1,193 @@
+#body {
+    background-image: url(/assets/Preview/בואו\ נכיר.png);
+    /* background-image: url(/assets/Preview/רקע\ הקדמהpsd.png); */
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100vh; 
+    width: 100vh; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+    position: absolute;
+}
+
+#previewBackground {
+    z-index: 5;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#questionBackground {
+    z-index: 6;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+@keyframes fadeInQuestions {
+    0% { 
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#nextBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}
+
+.popUp {
+    visibility: hidden;
+    position: absolute;
+    left: 12vw;
+    bottom: 0vh;
+    z-index: 2;
+    width: 75vw;
+    height: 100vh;
+}
+
+.pupUpBtns {
+    width: 18vw;
+    height: 15vh;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+}
+
+#popUpBtn1 {
+    top: 63vh;
+    left: 68vw;
+}
+
+#popUpBtn2 {
+    top: 63vh;
+    left: 52vw;
+}
+
+#popUpBtn3 {
+    top: 63vh;
+    left: 36vw;
+}
+
+#popUpBtn4 {
+    top: 63vh;
+    left: 20vw;
+}
+
+#popUpBtn1:hover {
+    top: 63.8vh;
+}
+
+#popUpBtn2:hover {
+    top: 63.8vh;
+}
+
+#popUpBtn3:hover {
+    top: 63.8vh;
+}
+
+#popUpBtn4:hover {
+    top: 63.8vh;
+}
+
+@keyframes haasakaEffect {
+    0% { 
+        top: 63vh;
+    }
+    50% {
+        top: 62vh;
+    }
+    100% {
+        top: 63vh;
+    }
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>לומדת אע"צים לקציני משא"ן</title>
+    <link rel="stylesheet" href="Exercise.css">
+    <script src="Exercise.js"></script>
+</head>
+<body id="body">
+    <img src="../assets/balckBackground.png" alt="blackBackground" id="blackBackground" class="cannotSelect" />
+    <img src="/assets/TheEnd/מפתח הקדמה.png" alt="FinishedBackground" id="FinishedBackground"/>
+    <img src="/assets/TheEnd/מפה.png" alt="mapBackground" id="mapBackground"/>
+
+    <img src="../assets/continueButton.png" alt="continueBtn" id="continueBtn" onclick="GoNextQuestion()" />
+
+    <img src="../assets/Exercise/נכון.png" alt="rightButton" id="rightButton" onclick="CheckAnswer('right')" />
+    <img src="../assets/Exercise/לא  נכון.png" alt="wrongButton" id="wrongButton" onclick="CheckAnswer('wrong')" />
+
+    <img src="../assets/Exercise/שאלה 1 הקדמה נכון.png" alt="trueAnswer" id="trueAnswer" class="answer" />
+    <img src="../assets/Exercise/שאלה 1 הקדמה לא נכון.png" alt="falseAnswer" id="falseAnswer" class="answer" />
+
+    <button id="firstAnswer" class="americanAnswers" onclick="CheckAmericanAnswer('1')"></button>
+    <button id="secondAnswer" class="americanAnswers" onclick="CheckAmericanAnswer('2')"></button>
+    <button id="thirdAnswer" class="americanAnswers" onclick="CheckAmericanAnswer('3')"></button>
+    <button id="fourthAnswer" class="americanAnswers" onclick="CheckAmericanAnswer('4')"></button>
+</body>
+</html>

@@ -1,0 +1,322 @@
+#body {
+    background-image: url(/assets/Prisha/סוגי\ סיום\ העסקה.png);
+    /* background-image: url(/assets/Prisha/רקע\ פרישה.png); */
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    user-select: none;
+}
+
+#prishaBackground {
+    z-index: 5;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#questionBackground {
+    z-index: 6;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+@keyframes fadeInQuestions {
+    0% { 
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+#back {
+    visibility: hidden;
+    position: relative;
+    top: 92.5vh;
+    left: 5vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    width: 7vw;
+    height: 5.7vh;
+    z-index: 1;
+}
+
+#back:hover {
+    left: 4.8vw;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+#kodem {
+    visibility: hidden;
+    position: relative;
+    top: 92.5vh;
+    left: 13vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#kodem:hover {
+    left: 13.2vw;
+}
+
+#continueBtn {
+    visibility: hidden;
+    position: relative;
+    top: 92.5vh;
+    left: 2.8vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#continueBtn:hover {
+    left: 3vw;
+}
+
+#thailandMan {
+    position: absolute;
+    left: -8vw;
+    top: 27vh;
+    visibility: hidden;
+    width: 20vw;
+    height: 75vh;
+}
+
+@keyframes thailandManCome {
+    0% { left: -20vw; }
+    100% { left: -8vw; }
+}
+
+#thailandPopUp {
+    position: absolute;
+    right: 73.5vw;
+    bottom: 60vh;
+    opacity: 0%;
+    visibility: hidden;
+    width: 17vw;
+    height: 25vh;
+}
+
+@keyframes thailandPopUp {
+    0% { opacity: 0%; }
+    100% { opacity: 100%; }
+}
+
+.checked {
+    height: 7.5vh;
+    width: 4vw;
+    position: absolute;
+    left: 75.4vw;
+    visibility: hidden;
+}
+
+#check1 {
+    top: 23vh;
+}
+
+#check2 {
+    top: 33vh;
+}
+
+#check3 {
+    top: 43vh;
+}
+
+#check4 {
+    top: 53vh;
+}
+
+#check5 {
+    top: 63.41vh;
+}
+
+.typeBtn {
+    height: 8vh;
+    width: 23.3vw;
+    position: absolute;
+    left: 52%;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+}
+
+.typeBtn:hover {
+    background-color: black;
+    opacity: 15%;
+    border-radius: 0.8vw;
+}
+
+#tivit {
+    top: 23%;
+}
+
+#mukdemet{
+    top: 33%;
+}
+
+#disability{
+    top: 43%;
+}
+
+#resignation{
+    top: 63%;
+}
+
+#dismissal {
+    top: 53%;
+}
+
+#dismissal2 {
+    visibility: hidden;
+    position: relative;
+    top: 92.5vh;
+    left: 5vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+}
+
+@keyframes arrowsTransition {
+    0% { 
+        opacity: 0%;
+    }
+    100% {
+         opacity: 100%;
+    }
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index:2;
+    position: relative;
+    visibility: visible;
+}
+
+#firstSpeechBubble {
+    position: absolute;
+    bottom: 69vh;
+    left: 21.5vw;
+    visibility: visible;
+}
+
+#dismissal2 {
+    position: absolute;
+    bottom: 12vh;
+    left: 6vw;
+    z-index: 2;
+}
+
+.dismissalBtns {
+    visibility: hidden;
+    position: absolute;
+    bottom: 70vh;
+    left: 40vw;
+    cursor: pointer;
+    z-index: 1;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+}
+
+.popUp {
+    visibility: hidden;
+    position: absolute;
+    left: 12vw;
+    bottom: 0vh;
+    z-index: 2;
+    width: 75vw;
+    height: 100vh;
+}
+
+#allDismissalButtons {
+    visibility: hidden;
+    width: 60vw;
+    height: 80vh;
+    position: absolute;
+    left: 18vw;
+    top: 21.5vh;
+    z-index: 1;
+}
+
+#dismissalBtnPopUp1 {
+    top: 27.3vh;
+    left: 35.6vw;
+    width: 26.2vw;
+    height: 9.85vh;
+    transform: rotate(0.9deg);
+}
+
+#dismissalBtnPopUp2 {
+    top: 38.8vh;
+    left: 35.6vw;
+    width: 26.2vw;
+    height: 8.8vh;
+    transform: rotate(-1.8deg);
+}
+
+#dismissalBtnPopUp3 {
+    top: 50vh;
+    left: 34vw;
+    width: 27vw;
+    height: 10vh;
+    transform: rotate(1deg);
+}
+
+#dismissalBtnPopUp4 {
+    top: 61.2vh;
+    left: 35.6vw;
+    width: 26.2vw;
+    height: 9.85vh;
+    transform: rotate(0.9deg);
+}
+
+.dismissalBtns:hover {
+    background-color: black;
+    opacity: 18%;
+    border-radius: 0.8vw;
+}

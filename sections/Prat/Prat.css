@@ -1,0 +1,543 @@
+#body {
+    background-image: url(/assets/Prat/אינדיקציות\ שנתיות.png);
+    /* background-image: url(/assets/Prat/רקע\ פרט.png); */
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+}
+
+#pratBackground {
+    z-index: 5;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#questionBackground {
+    z-index: 6;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+@keyframes fadeInQuestions {
+    0% { 
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+#nextBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}
+
+#returnBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#returnBtn:hover { 
+    left: 2.8vw;
+}
+
+.bubbles {
+    visibility: hidden;
+    position: absolute;
+}
+
+#bubble1 {
+    top: 15vh;
+    width: 22vw;
+    left: 25vw;
+    height: 45vh;
+}
+
+#bubble2 {
+    top: 45vh;
+    left: 2vw;
+    width: 22vw;
+    height: 45vh;
+}
+
+#bubble3 {
+    top: 45vh;
+    left: 48vw;
+    width: 22vw;
+    height: 45vh;
+}
+
+#bubble4 {
+    top: 25vh;
+    left: 72vw;
+    height: 45vh;
+    width: 22vw;
+}
+
+
+@keyframes bubblesAnimation {
+    0% { 
+        width: 22vw;
+        height: 45vh;
+    }
+    100% {
+        width: 23vw;
+        height: 47vh;
+    }
+}  
+
+#submarineLight {
+    visibility: hidden;
+    position: absolute;
+    top: -3.7vh;
+    left: 3vw;
+    opacity: 0%;
+    z-index: 4;
+    width: 28vw;
+    height: 50vh;
+}
+
+#submarine {
+    position: absolute;
+    bottom: 55vh;
+    visibility: hidden;
+    height: 70vh;
+    right: 90vw;
+    z-index: 3;
+    width: 34vw;
+}
+
+@keyframes submarineComeIn {
+    0% { 
+        right: 90vw;
+    }
+    100% {
+        right: 77vw;
+    }
+}
+
+@keyframes lightUp {
+    0% { 
+        opacity: 80%;
+    }
+    90% {
+        opacity: 80%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes showLight {
+    0% { 
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+#girlPearl {
+    visibility: hidden;
+    position: absolute;
+    left: 12vw;
+    top: 24vh;
+    cursor: pointer;
+    width: 35vw;
+    height: 65vh;
+}
+
+#boyPearl {
+    position: absolute;
+    visibility: hidden;
+    left: 53vw;
+    cursor: pointer;
+    top: 24vh;
+    width: 35vw;
+    height: 65.5vh;
+}
+
+#boyPearl:hover {
+    content: url('/assets/Prat/זכויות\ העובד\ צדפה\ זוהרת.png');
+    width: 36vw;
+    height: 72vh;
+    left: 52.5vw;
+    top: 20vh;
+}
+
+#girlPearl:hover {
+    content: url('/assets/Prat/צדפה\ זכויות\ העובדת\ זוהרת.png');
+    width: 36vw;
+    height: 72vh;
+    left: 11.5vw;
+    top: 20vh;
+}
+
+#jellyfish1 {
+    position: absolute;
+    left: 10vw;
+    top: 54vh;
+    visibility: hidden;
+    opacity: 0.75;
+    transform: rotate(5deg);
+    width: 17vw;
+    height: 44vh;
+}
+
+#jellyfish2 {
+    position: absolute;
+    left: 33vw;
+    top: 12vh;
+    visibility: hidden;
+    height: 35vh;
+    opacity: 0.75;
+    transform: rotate(10deg);
+    width: 12vw;
+    height: 34vh;
+}
+
+#jellyfish3 {
+    position: absolute;
+    left: -1vw;
+    top: 28vh;
+    visibility: hidden;
+    height: 24vh;
+    opacity: 0.75;
+    transform: rotate(-10deg);
+    width: 9vw;
+    height: 18vh;
+}
+
+#coffee {
+    position: absolute;
+    left: -0.5vw;
+    transform: rotate(-20deg);
+    visibility: hidden;
+    top: 19vh;
+    height: 20vh;
+    width: 10vw;
+}
+
+@keyframes fadeCoffee {
+    0% {
+        top: 19.5vh;
+    }
+    100% {
+        top: 18vh;
+    }
+}
+
+#halad1 {
+    position: absolute;
+    left: 9vw;
+    top: 22vh;
+    visibility: hidden;
+    opacity: 0;
+    width: 90.8vw;
+    height: 19vh;
+}
+
+#halad2 {
+    position: absolute;
+    left: 8vw;
+    top: 31vh;
+    visibility: hidden;
+    opacity: 0;
+    width: 90.8vw;
+    height: 19vh;
+}
+
+#halad3 {
+    position: absolute;
+    left: 6.5vw;
+    visibility: hidden;
+    top: 43vh;
+    opacity: 0;
+    width: 90.8vw;
+    height: 19vh;
+}
+
+#halad4 {
+    position: absolute;
+    left: 2vw;
+    top: 54.5vh;
+    visibility: hidden;
+    opacity: 0;
+    width: 95.5vw;
+    height: 19vh;
+}
+
+#starFish1 {
+    position: absolute;
+    left: -0.3vw;
+    top: 22.8vh;
+    visibility: hidden;
+    height: 10vh;
+}
+
+#starFish2 {
+    position: absolute;
+    left: -0.3vw;
+    top: 33vh;
+    visibility: hidden;
+    height: 10vh;
+
+}
+
+#starFish3 {
+    position: absolute;
+    left: -0.3vw;
+    top: 47vh;
+    visibility: hidden;
+    height: 10vh;
+
+}
+
+#starFish4 {
+    position: absolute;
+    left: -0.3vw;
+    top: 57vh;
+    visibility: hidden;
+    height: 10vh;
+
+}
+
+@keyframes halad1Animation {
+    0% {
+        left: -10vw;
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        left: 9vw;
+        transform: scale(1);
+        opacity: 1;
+      }
+}
+
+@keyframes halad2Animation {
+    0% {
+        left: -10vw;
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        left: 8vw;
+        transform: scale(1);
+        opacity: 1;
+      }
+}
+
+@keyframes halad3Animation {
+    0% {
+        left: -10vw;
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        left: 6.5vw;
+        transform: scale(1);
+        opacity: 1;
+      }
+}
+
+@keyframes halad4Animation {
+    0% {
+        left: -10vw;
+        transform: scale(0);
+        opacity: 0;
+    }
+    100% {
+        left: 2vw;
+        transform: scale(1);
+        opacity: 1;
+      }
+}
+
+@keyframes starfish1Animation {
+    0% {
+        left: -0.3vw;
+    }
+    100% {
+        left: 95vw;
+    }
+}
+
+@keyframes starfish2Animation {
+    0% {
+        left: -0.3vw;
+    }
+    100% {
+        left: 95vw;
+    }
+}
+
+@keyframes starfish3Animation {
+    0% {
+        left: -0.3vw;
+    }
+    100% {
+        left: 95vw;
+    }
+}
+
+@keyframes starfish4Animation {
+    0% {
+        left: -0.3vw;
+    }
+    100% {
+        left: 95vw;
+    }
+}
+ 
+#bubbles {
+    position: absolute;
+    left: 10vw;
+    top: 40vh;
+}
+
+#teunot1 {
+    position: absolute;
+    left: 8vw;
+    top: 7vh;
+    opacity: 0;
+    visibility: hidden;
+    width: 40vw;
+    height: 56vh;
+}
+
+#teunot2 {
+    position: absolute;
+    left: 8vw;
+    top: 23vh;
+    opacity: 0;
+    visibility: hidden;
+    width: 40vw;
+    height: 56vh;
+}
+
+#teunot3 {
+    position: absolute;
+    left: 8vw;
+    top: 39vh;
+    opacity: 0;
+    visibility: hidden;
+    width: 40vw;
+    height: 56vh;
+}
+
+#teunot4 {
+    position: absolute;
+    left: 8vw;
+    top: 55vh;
+    opacity: 0;
+    visibility: hidden;
+    width: 40vw;
+    height: 56vh;
+}
+
+@keyframes teunotAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

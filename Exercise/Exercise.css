@@ -1,0 +1,185 @@
+#body {
+    background-image: url(../assets/Exercise/שאלה\ 1\ הקדמה.png);
+    /* background-image: url(../assets/TheEnd/מפתח\ פרישה.png); */
+    background-size: 100vw 100vh;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+#mapBackground {
+    z-index: 5;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#FinishedBackground {
+    z-index: 6;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+@keyframes fadeInQuestions {
+    0% { 
+        opacity: 0%;
+    }
+    50% {
+        opacity: 100%;
+
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#rightButton {
+    cursor: pointer;
+    position: absolute;
+    top: 34vh;
+    left: 66vw;
+    width: 18vw;
+}
+
+#rightButton:hover { 
+    content: url("../assets/Exercise/כפתור\ נכון\ זוהר.png");
+    top: 35vh;
+}
+
+#wrongButton {
+    cursor: pointer;
+    position: absolute;
+    top: 34vh;
+    left: 52vw;
+    width: 18vw;
+
+}
+
+#wrongButton:hover { 
+    content: url("../assets/Exercise/כפתור\ לא\ נכון\ זוהר.png");
+    top: 35vh;
+}
+
+.answer {
+    visibility: hidden;
+    position: absolute;
+    top: 48vh;
+    left: 40vw;
+    width: 55vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 15vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#continueBtn:hover { 
+    left: 14.8vw;
+}
+
+.americanAnswersGreen {
+    position: relative;
+    left: 49.7vw;
+    position: absolute;
+    background-color: green;
+    opacity: 0.25;
+    font-size: 0;
+    cursor: auto;
+    z-index: 1;
+    width: 47.4vw;
+    height: 7.6vh;
+    border-radius: 2.4vw;
+}
+
+.americanAnswersRed {
+    position: relative;
+    left: 49.85vw;
+    position: absolute;
+    background-color: red;
+    opacity: 0.25;
+    font-size: 0;
+    cursor: auto;
+    z-index: 1;
+    width: 47.4vw;
+    height: 7.6vh;
+    border-radius: 7vw;
+}
+
+.americanAnswers {
+    position: relative;
+    left: 49.85vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+    width: 47.4vw;
+    height: 7.6vh;
+    border-radius: 7vw;
+}
+
+.americanAnswers:hover {
+    background-color: grey;
+    opacity: 0.2;
+}
+
+#firstAnswer {
+    top: 34.7vh;
+    left: 49.85vw;
+}
+
+#secondAnswer {
+    top: 45.5vh;
+    left: 49.85vw;
+}
+
+#thirdAnswer {
+    top: 56.3vh;
+    left: 49.85vw;
+}
+
+#fourthAnswer {
+    top: 67.1vh;
+    left: 49.85vw;
+}

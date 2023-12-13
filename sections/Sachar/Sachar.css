@@ -1,0 +1,269 @@
+#body {
+    background-image: url(/assets/Sachar/תוספות\ והסכמי\ שכר.png);
+    /* background-image: url(/assets/Sachar/רקע\ שכר.png); */
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+    position: absolute;
+}
+
+#sacharBackground {
+    z-index: 5;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#questionBackground {
+    z-index: 6;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+@keyframes fadeInQuestions {
+    0% { 
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#nextBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    position: relative;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    position: relative;
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}
+
+.popUp {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0vh;
+    z-index: 2;
+    width: 28vw;
+    height: 60vh;
+}
+
+#popUp1 {
+    left: 57vw;
+}
+
+#popUp2 {
+    left: 36.5vw;
+    bottom: 1.15vh;
+}
+
+#popUp3 {
+    left: 16vw;
+}
+
+#popUpBtn1 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 40vh;
+    left: 57vw;
+    width: 28vw;
+    height: 60vh;
+}
+
+#popUpBtn2 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    position: absolute;
+    cursor: pointer;
+    z-index: 1;
+    top: 40vh;
+    left: 36.5vw;
+    width: 28vw;
+    height: 60vh;
+}
+
+#popUpBtn3 {
+    visibility: hidden;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    left: 16vw;
+    top: 40vh;
+    width: 28vw;
+    height: 60vh;
+}
+
+#popUpBtn1:hover {
+    top: 41vh;
+    content: url("/assets/Sachar/כוכב\ לכת\ 1\ עם\ זוהר.png");
+}
+
+#popUpBtn2:hover {
+    top: 41vh;
+    content: url("/assets/Sachar/כוכב\ לכת\ 2\ עם\ זוהר.png");
+}
+
+#popUpBtn3:hover {
+    top: 41vh;
+    content: url("/assets/Sachar/כוכב\ לכת\ 3\ עם\ זוהר.png");
+}
+
+@keyframes PopUpEffect {
+    0% { 
+        top: 40vh;
+    }
+    50% {
+        top: 42vh;
+    }
+    100% {
+        top: 40vh;
+    }
+}
+
+#astronaut {
+    visibility: hidden;
+    position: absolute;
+    left: -15vw;
+    top: -8vh;
+    width: 35vw;
+    height: 42vh;
+}
+
+@keyframes astronautComeIn {
+    0% { 
+        left: -30vw;
+        top: -15vh;
+    }
+    100% {
+        left: -15vw;
+        top: -8vh;
+    }
+}
+
+#drihut {
+    visibility: visible;
+    position: absolute;
+    left: 110vw;
+    top: 38vh;
+    width: 35vw;
+    height: 31vh;
+}
+
+#hilit {
+    visibility: visible;
+    position: absolute;
+    left: -40vw;
+    top: 60vh;
+    width: 35vw;
+    height: 31vh;
+}
+
+@keyframes HilitAnimation {
+    0% { 
+        left: -40vw;
+    }
+    100% {
+        left: -10vw;
+    }
+}
+
+@keyframes DrihutAnimation {
+    0% { 
+        left: 110vw;
+    }
+    100% {
+        left: 78vw;
+    }
+}

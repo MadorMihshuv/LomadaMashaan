@@ -1,0 +1,275 @@
+#body {
+    background-image: url(/assets/Sok/דירוגי\ שכר.png);
+    /* background-image: url(/assets/Sok/רקע\ סוקpsd.png); */
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+    user-select: none;
+    position: absolute;
+}
+
+#sokBackground {
+    z-index: 5;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+#questionBackground {
+    z-index: 6;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    margin: 0; 
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+@keyframes fadeInQuestions {
+    0% { 
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#nextBtn {
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#nextBtn:hover { 
+    left: 2.8vw;
+}
+
+#backBtn {
+    visibility: hidden;
+    top: 93vh;
+    left: 11.3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#backBtn:hover { 
+    left: 11.5vw;
+}
+
+#continueBtn {
+    top: 93vh;
+    left: 3vw;
+    position: absolute;
+    background: transparent;
+    border: none !important;
+    font-size:0;
+    cursor: pointer;
+    z-index: 1;
+    visibility: hidden;
+    width: 7vw;
+    height: 5.7vh;
+}
+
+#continueBtn:hover { 
+    left: 2.8vw;
+}
+
+#log1 {
+    height: 20vh;
+    width: 18vw;
+    position: absolute;
+    left: 74vw;
+    visibility: hidden;
+    top: 70vh;
+}
+
+#log2 {
+    height: 20vh;
+    width: 18vw;
+    position: absolute;
+    left: 54vw;
+    visibility: hidden;
+    top: 64vh;
+}
+
+#log3 {
+    height: 20vh;
+    width: 18vw;
+    position: absolute;
+    left: 37.2vw;
+    visibility: hidden;
+    top: 71vh;
+}
+
+@keyframes log1Move {
+    0% { 
+        top: 70vh;
+    }
+    50% {
+        top: 68vh;
+    }
+    100% {
+        top: 70vh;
+    }
+}
+
+@keyframes log2Move {
+    0% { 
+        top: 64vh;
+    }
+    50% {
+        top: 62vh;
+    }
+    100% {
+        top: 64vh;
+    }
+}
+
+@keyframes log3Move {
+    0% { 
+        top: 71vh;
+    }
+    50% {
+        top: 69vh;
+    }
+    100% {
+        top: 71vh;
+    }
+}
+
+#flower1 {
+    position: absolute;
+    left: 93.5vw;
+    top: 17.5vh;
+    width: 8vw;
+    visibility: hidden;
+}
+
+#flower2 {
+    position: absolute;
+    left: 93.5vw;
+    top: 30.5vh;
+    width: 8vw;
+    visibility: hidden;
+}
+
+#flower3 {
+    position: absolute;
+    left: 93.5vw;
+    top: 43.5vh;
+    visibility: hidden;
+    width: 8vw;
+}
+
+#flower4 {
+    position: absolute;
+    left: 93.5vw;
+    top: 50.5vh;
+    visibility: hidden;
+    width: 8vw;
+}
+
+@keyframes flowersAnimation {
+    0% {
+        width: 8vw;
+    }
+    50% {
+        width: 10vw;
+        left: 92.5vw;
+    }
+    100% {
+        width: 8vw;
+    }
+}
+
+#text1 {
+    visibility: hidden;
+    position: absolute;
+    left: 21.5vw;
+    width: 76vw;
+    top: 17vh;
+    opacity: 0;
+    height: 16.5vh;
+}
+
+#text2 {
+    height: 16.5vh;
+    width: 76vw;
+    position: absolute;
+    left: 21.5vw;
+    top: 30vh;
+    opacity: 0;
+    visibility: hidden;
+
+}
+
+#text3 {
+    visibility: hidden;
+    width: 76vw;
+    position: absolute;
+    left: 27vw;
+    top: 40vh;
+    opacity: 0;
+    height: 16.5vh;
+
+}
+
+#text4 {
+    width: 82vw;
+    visibility: hidden;
+    position: absolute;
+    left: 14.2vw;
+    top: 44vh;
+    opacity: 0;
+    height: 30vh;
+
+}
+
+@keyframes textFadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

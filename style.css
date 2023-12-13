@@ -1,0 +1,160 @@
+#body {
+    background-image: url(./assets/עמוד\ פתיחה\ הקדמה\ 1-\ סופי.png);
+    background-size: 100vw 100vh;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+#blackBackground {
+    opacity: 0%;
+    z-index: 2;
+    position: relative;
+    visibility: visible;
+}
+
+.cannotSelect {
+    pointer-events: none;
+}
+
+@keyframes hideBackground {
+    0% { 
+        opacity: 80%;
+    }
+    20% {
+         opacity: 75%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+#startBtn {
+    background: transparent;
+    border: none !important;
+    font-size: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 80vh;
+    left: 66vw;
+    width: 15vw;
+    height: 10vh;
+}
+
+#startBtn:hover { 
+    top: 80.8vh;
+}
+
+#startBtnImg {
+    height: 13vh;
+}
+
+#redDot1 {
+    position: absolute;
+    left: 7.7vw;
+    top: 74.6vh;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+
+#redDot2 {
+    position: absolute;
+    left: 17.8vw;
+    top: 72.2vh;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#redDot3 {
+    position: absolute;
+    left: 20.1vw;
+    top: 61vh;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+
+#redDot4 {
+    position: absolute;
+    left: 23.6vw;
+    top: 51.7vh;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+
+#redDot5 {
+    position: absolute;
+    left: 33.2vw;
+    top: 46vh;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+
+#redDot6 {
+    position: absolute;
+    left: 38.4vw;
+    top: 37.2vh;
+    cursor: pointer;
+    visibility: hidden;
+
+}
+
+#redDot7 {
+    position: absolute;
+    left: 36.7vw;
+    top: 26.3vh;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+#redDot1:hover {
+    height: 2.9vw;
+    opacity: 0.88;
+    left: 7.5vw;
+    top: 74.3vh;
+}
+
+#redDot2:hover {
+    height: 2.9vw;
+    opacity: 0.88;
+    left: 17.6vw;
+    top: 71.9vh;
+}
+
+#redDot3:hover {
+    height: 2.9vw;
+    opacity: 0.88;
+    left: 19.9vw;
+    top: 60.6vh;
+}
+
+#redDot4:hover {
+    height: 2.9vw;
+    opacity: 0.88;
+    left: 23.4vw;
+    top: 51.3vh;
+}
+
+#redDot5:hover {
+    height: 2.9vw;
+    opacity: 0.88;
+    left: 33vw;
+    top: 45.7vh;
+}
+
+#redDot6:hover {
+    height: 2.9vw;
+    opacity: 0.88;
+    left: 38.2vw;
+    top: 36.9vh;
+}
+
+#redDot7:hover {
+    height: 2.9vw;
+    opacity: 0.88;
+    left: 36.5vw;
+    top: 26vh;
+}
