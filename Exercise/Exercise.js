@@ -15,10 +15,10 @@ let secondAnswer;
 let thirdAnswer;
 let fourthAnswer;
 
-const backgroundImages = [ 'url("../assets/Exercise/שאלה\ 1\ הקדמה.png")','url("../assets/Exercise/שאלה\ 2\ הקדמה\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 3\ הקדמה\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 1\ שכר.png")', 'url("../assets/Exercise/שאלה\ 2\ שכר\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 3\ שכר.png")', 'url("../assets/Exercise/שאלה1\ סוק\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 2\ סוק\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 1\ פרט.png")', 'url("../assets/Exercise/שאלה2\ פרט\ אמריקאית.png")', 'url("../assets/Exercise/שאלה3\ פרט\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 4\ פרט.png")', 'url("../assets/Exercise/שאלה\ 5\ פרט.png")', 'url("../assets/Exercise/שאלה\ 1\ עוס\.png")', 'url("../assets/Exercise/שאלה\ 2\ עוס\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 1\ פרישה.png")', 'url("../assets/Exercise/שאלה\ 2\ \ אמריקאית\ פרישה.png")', 'url("../assets/Exercise/שאלה\ 3\ פרישה.png")', 'url("../assets/Exercise/שאלה\ 4\ פרישה\ אמריקאית.png")'];
-const trueBackground = ["../assets/Exercise/שאלה\ 1\ הקדמה\ נכון.png", "../assets/Exercise/נכון\ \ 1\ שכר.png", "../assets/Exercise/נכון\ 3\ שכר.png", "../assets/Exercise/נכון\ 1\ פרט.png", "../assets/Exercise/נכון\ \ 4\ פרט.png", "../assets/Exercise/נכון\ 5\ פרט.png", "../assets/Exercise/לא\ נכון\ 1\ עוס.png", "../assets/Exercise/נכון\ 1\ פרישה.png", "../assets/Exercise/נכון\ 3\ פרישה.png"];
-const falseBackground = ["../assets/Exercise/שאלה\ 1\ הקדמה\ לא\ נכון.png", "../assets/Exercise/לא\ נכון\ 1שכר.png", "../assets/Exercise/לא\ נכון\ 3\ שכר.png", "../assets/Exercise/לא\ נכון\ 1\ פרט.png", "../assets/Exercise/לא\ נכון\ 4\ פרט.png", "../assets/Exercise/נכון\ \ 1\ עוס.png", "../assets/Exercise/לא\ נכון\ 1\ עוס.png", "../assets/Exercise/לא\ נכון\ 1\ פרישה.png", "../assets/Exercise/לא\ נכון\ 3\ פרישה.png"];
-const allAnswers = ["right", "4", "3" , "wrong", "1", "wrong", "2", "2", "wrong", "2", "4", "right", "right", "wrong", "3", "right", "4", "wrong", "1"];
+const backgroundImages = [ 'url("../assets/Exercise/שאלה\ 1\ הקדמה.png")','url("../assets/Exercise/שאלה\ 2\ הקדמה\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 3\ הקדמה\ אמריקאית.png")','url("../assets/Exercise/שאלה\ 1\ קליטה.png")' ,'url("../assets/Exercise/שאלה\ 2\ קליטה\ אמריקאית.png")' ,'url("../assets/Exercise/שאלה\ 3\ קליטה\ אמריקאית.png")' , 'url("../assets/Exercise/שאלה\ 1\ שכר.png")', 'url("../assets/Exercise/שאלה\ 2\ שכר\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 3\ שכר.png")', 'url("../assets/Exercise/שאלה1\ סוק\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 2\ סוק\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 1\ פרט.png")', 'url("../assets/Exercise/שאלה2\ פרט\ אמריקאית.png")', 'url("../assets/Exercise/שאלה3\ פרט\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 4\ פרט.png")', 'url("../assets/Exercise/שאלה\ 5\ פרט.png")', 'url("../assets/Exercise/שאלה\ 1\ עוס\.png")', 'url("../assets/Exercise/שאלה\ 2\ עוס\ אמריקאית.png")', 'url("../assets/Exercise/שאלה\ 1\ פרישה.png")', 'url("../assets/Exercise/שאלה\ 2\ \ אמריקאית\ פרישה.png")', 'url("../assets/Exercise/שאלה\ 3\ פרישה.png")', 'url("../assets/Exercise/שאלה\ 4\ פרישה\ אמריקאית.png")'];
+const trueBackground = ["../assets/Exercise/שאלה\ 1\ הקדמה\ נכון.png","../assets/Exercise/נכון\ \ 1\ קליטה.png" , "../assets/Exercise/נכון\ \ 1\ שכר.png", "../assets/Exercise/נכון\ 3\ שכר.png", "../assets/Exercise/נכון\ 1\ פרט.png", "../assets/Exercise/נכון\ \ 4\ פרט.png", "../assets/Exercise/נכון\ 5\ פרט.png", "../assets/Exercise/לא\ נכון\ 1\ עוס.png", "../assets/Exercise/נכון\ 1\ פרישה.png", "../assets/Exercise/נכון\ 3\ פרישה.png"];
+const falseBackground = ["../assets/Exercise/שאלה\ 1\ הקדמה\ לא\ נכון.png", "../assets/Exercise/לא\ נכון\ 1\ קליטה.png", "../assets/Exercise/לא\ נכון\ 1שכר.png", "../assets/Exercise/לא\ נכון\ 3\ שכר.png", "../assets/Exercise/לא\ נכון\ 1\ פרט.png", "../assets/Exercise/לא\ נכון\ 4\ פרט.png", "../assets/Exercise/לא\ נכון\ 5\ פרט.png", "../assets/Exercise/נכון\ \ 1\ עוס.png", "../assets/Exercise/לא\ נכון\ 1\ עוס.png", "../assets/Exercise/לא\ נכון\ 1\ פרישה.png", "../assets/Exercise/לא\ נכון\ 3\ פרישה.png"];
+const allAnswers = ["right", "4", "3", "right", "1", "4" , "wrong", "1", "wrong", "2", "2", "wrong", "2", "4", "right", "right", "wrong", "3", "right", "4", "wrong", "1"];
 const keyBackgrounds = ["../assets/TheEnd/מפתח\ הקדמה.png", "../assets/TheEnd/מפתח\ קליטה.png", "../assets/TheEnd/מפתח\ תנאי\ העסקה.png" , "../assets/TheEnd/מפתח\ קידומים\ והטבות.png", "../assets/TheEnd/מפתח\ זכויות\ וזכאויות.png", "../assets/TheEnd/מפתח\ השירות\ הסוציאלי.png", "../assets/TheEnd/מפתח\ פרישה.png"];
 
 window.onload = function() {
@@ -72,7 +72,6 @@ function CheckAnswer(whatChose) {
 
 function GoNextQuestion() {
     sessionStorage.setItem("questionNum", parseInt(sessionStorage.getItem("questionNum")) + 1 );
-    console.log(parseInt(sessionStorage.getItem("sectionNum")-1));
     switch(sessionStorage.getItem("questionNum")) {
         case "3":
             FinishedBackground.src = keyBackgrounds[parseInt(sessionStorage.getItem("sectionNum")-2)];
@@ -82,19 +81,23 @@ function GoNextQuestion() {
             FinishedBackground.src = keyBackgrounds[parseInt(sessionStorage.getItem("sectionNum")-2)];
             BeforeGoingNext();
             break;
-        case "8":
+        case "9":
             FinishedBackground.src = keyBackgrounds[parseInt(sessionStorage.getItem("sectionNum")-2)];
             BeforeGoingNext();
             break;
-        case "13":
+        case "11":
             FinishedBackground.src = keyBackgrounds[parseInt(sessionStorage.getItem("sectionNum")-2)];
             BeforeGoingNext();
             break;
-        case "15":
+        case "16":
             FinishedBackground.src = keyBackgrounds[parseInt(sessionStorage.getItem("sectionNum")-2)];
             BeforeGoingNext();
             break;
-        case "19":
+        case "18":
+            FinishedBackground.src = keyBackgrounds[parseInt(sessionStorage.getItem("sectionNum")-2)];
+            BeforeGoingNext();
+            break;
+        case "22":
             FinishedBackground.src = keyBackgrounds[parseInt(sessionStorage.getItem("sectionNum")-2)];
             BeforeGoingNext();
             break;
@@ -108,7 +111,7 @@ function GoNextQuestion() {
 function BeforeGoingNext() {
     mapBackground.style.visibility = "visible";
     FinishedBackground.style.visibility = "visible";
-    FinishedBackground.style.animation = "fadeInQuestions 4s forwards";
+    FinishedBackground.style.animation = "fadeInQuestions 6s forwards";
     setTimeout(() => {
         FinishedBackground.style.visibility = "hidden";
         window.location.href = "../MainPage.html";

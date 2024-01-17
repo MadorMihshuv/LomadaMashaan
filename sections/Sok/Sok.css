@@ -1,6 +1,5 @@
 #body {
-    background-image: url(/assets/Sok/דירוגי\ שכר.png);
-    /* background-image: url(/assets/Sok/רקע\ סוקpsd.png); */
+    background-image: url(/assets/Sok/דירוגי\ שכר\ הסבר.png);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
     margin: 0; 
@@ -66,7 +65,7 @@
 }
 
 #nextBtn {
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -75,7 +74,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #nextBtn:hover { 
@@ -84,7 +83,7 @@
 
 #backBtn {
     visibility: hidden;
-    top: 93vh;
+    top: 93.4vh;
     left: 11.3vw;
     position: absolute;
     background: transparent;
@@ -93,7 +92,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #backBtn:hover { 
@@ -101,7 +100,7 @@
 }
 
 #continueBtn {
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -111,7 +110,7 @@
     z-index: 1;
     visibility: hidden;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #continueBtn:hover { 
@@ -119,65 +118,65 @@
 }
 
 #log1 {
-    height: 20vh;
+    height: 18vh;
     width: 18vw;
     position: absolute;
     left: 74vw;
     visibility: hidden;
-    top: 70vh;
+    top: 72vh;
 }
 
 #log2 {
-    height: 20vh;
+    height: 18vh;
     width: 18vw;
     position: absolute;
     left: 54vw;
     visibility: hidden;
-    top: 64vh;
+    top: 65vh;
 }
 
 #log3 {
-    height: 20vh;
+    height: 18vh;
     width: 18vw;
     position: absolute;
     left: 37.2vw;
     visibility: hidden;
-    top: 71vh;
+    top: 73vh;
 }
 
 @keyframes log1Move {
     0% { 
-        top: 70vh;
+        top: 72vh;
     }
     50% {
-        top: 68vh;
+        top: 70vh;
     }
     100% {
-        top: 70vh;
+        top: 72vh;
     }
 }
 
 @keyframes log2Move {
     0% { 
-        top: 64vh;
+        top: 65vh;
     }
     50% {
-        top: 62vh;
+        top: 63vh;
     }
     100% {
-        top: 64vh;
+        top: 65vh;
     }
 }
 
 @keyframes log3Move {
     0% { 
-        top: 71vh;
+        top: 73vh;
     }
     50% {
-        top: 69vh;
+        top: 71vh;
     }
     100% {
-        top: 71vh;
+        top: 73vh;
     }
 }
 
@@ -200,7 +199,7 @@
 #flower3 {
     position: absolute;
     left: 93.5vw;
-    top: 43.5vh;
+    top: 42.7vh;
     visibility: hidden;
     width: 8vw;
 }
@@ -233,11 +232,11 @@
     width: 76vw;
     top: 17vh;
     opacity: 0;
-    height: 16.5vh;
+    height: 14vh;
 }
 
 #text2 {
-    height: 16.5vh;
+    height: 14vh;
     width: 76vw;
     position: absolute;
     left: 21.5vw;
@@ -254,7 +253,7 @@
     left: 27vw;
     top: 40vh;
     opacity: 0;
-    height: 16.5vh;
+    height: 14vh;
 
 }
 
@@ -263,10 +262,9 @@
     visibility: hidden;
     position: absolute;
     left: 14.2vw;
-    top: 44vh;
+    top: 44.6vh;
     opacity: 0;
-    height: 30vh;
-
+    height: 26vh;
 }
 
 @keyframes textFadeIn {

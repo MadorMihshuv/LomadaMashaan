@@ -67,7 +67,7 @@
 
 #nextBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -76,7 +76,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #nextBtn:hover { 
@@ -86,7 +86,7 @@
 #backBtn {
     visibility: hidden;
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 11.3vw;
     position: absolute;
     background: transparent;
@@ -95,7 +95,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #backBtn:hover { 
@@ -104,7 +104,7 @@
 
 #continueBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -114,7 +114,7 @@
     z-index: 1;
     visibility: hidden;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #continueBtn:hover { 
@@ -124,23 +124,23 @@
 .popUp {
     visibility: hidden;
     position: absolute;
-    bottom: 0vh;
+    bottom: 10vh;
     z-index: 2;
-    width: 28vw;
-    height: 60vh;
+    width: 30vw;
+    height: 42vh;
+    cursor: pointer;
 }
 
 #popUp1 {
-    left: 57vw;
+    left: 56vw;
 }
 
 #popUp2 {
-    left: 36.5vw;
-    bottom: 1.15vh;
+    left: 35.5vw;
 }
 
 #popUp3 {
-    left: 16vw;
+    left: 15vw;
 }
 
 #popUpBtn1 {
@@ -151,10 +151,10 @@
     position: absolute;
     cursor: pointer;
     z-index: 1;
-    top: 40vh;
-    left: 57vw;
-    width: 28vw;
-    height: 60vh;
+    top: 48vh;
+    left: 56vw;
+    width: 30vw;
+    height: 42vh;
 }
 
 #popUpBtn2 {
@@ -165,10 +165,10 @@
     position: absolute;
     cursor: pointer;
     z-index: 1;
-    top: 40vh;
-    left: 36.5vw;
-    width: 28vw;
-    height: 60vh;
+    top: 48vh;
+    left: 35.5vw;
+    width: 30vw;
+    height: 42vh;
 }
 
 #popUpBtn3 {
@@ -179,36 +179,45 @@
     cursor: pointer;
     z-index: 1;
     position: absolute;
-    left: 16vw;
-    top: 40vh;
-    width: 28vw;
-    height: 60vh;
+    left: 15vw;
+    top: 48vh;
+    width: 30vw;
+    height: 42vh;
 }
 
 #popUpBtn1:hover {
-    top: 41vh;
-    content: url("/assets/Sachar/כוכב\ לכת\ 1\ עם\ זוהר.png");
+    left: 57.5vw;
+    width: 27vw;
+    height: 42vh;
+    top: 48.5vh;
+    content: url("/assets/Sachar/כוכב\ לכת\ 1\ עם\ זוהר0.png");
 }
 
 #popUpBtn2:hover {
-    top: 41vh;
-    content: url("/assets/Sachar/כוכב\ לכת\ 2\ עם\ זוהר.png");
+    top: 48.5vh;   
+    left: 37vw;
+    height: 42vh;
+    width: 27vw;
+    content: url("/assets/Sachar/כוכב\ לכת\ 2\ עם\ זוהר0.png");
 }
 
 #popUpBtn3:hover {
-    top: 41vh;
+    top: 48.5vh;    
+    left: 16.5vw;
+    height: 42vh;
+    width: 27vw;
     content: url("/assets/Sachar/כוכב\ לכת\ 3\ עם\ זוהר.png");
 }
 
 @keyframes PopUpEffect {
     0% { 
-        top: 40vh;
+        top: 48vh;
     }
     50% {
-        top: 42vh;
+        top: 50vh;
     }
     100% {
-        top: 40vh;
+        top: 48vh;
     }
 }
 
@@ -218,7 +227,7 @@
     left: -15vw;
     top: -8vh;
     width: 35vw;
-    height: 42vh;
+    height: 38vh;
 }
 
 @keyframes astronautComeIn {
@@ -238,7 +247,7 @@
     left: 110vw;
     top: 38vh;
     width: 35vw;
-    height: 31vh;
+    height: 28vh;
 }
 
 #hilit {
@@ -247,7 +256,7 @@
     left: -40vw;
     top: 60vh;
     width: 35vw;
-    height: 31vh;
+    height: 28vh;
 }
 
 @keyframes HilitAnimation {

@@ -99,6 +99,8 @@ function GoNext() {
                 }, 2400);
                 break;
             case 4:
+                continueBtn.style.visibility = "visible";
+                nextBtn.style.visibility = "hidden";
                 popUp1.style.visibility = "hidden";
                 popUp2.style.visibility = "hidden";
                 popUp3.style.visibility = "hidden";
@@ -108,8 +110,6 @@ function GoNext() {
                 popUpBtnZohar1.style.visibility = "hidden";
                 popUpBtnZohar2.style.visibility = "hidden";
                 popUpBtnZohar3.style.visibility = "hidden";
-                continueBtn.style.visibility = "visible";
-                nextBtn.style.visibility = "hidden";
                 break;
             default:
                 break;

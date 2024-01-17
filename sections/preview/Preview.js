@@ -69,6 +69,12 @@ function GoNext() {
         body.style.backgroundImage = `${imageBackrounds[pageNum]}`;
         switch(pageNum) {
             case 2:
+                if(popUp1Entered && popUp2Entered && popUp3Entered && popUp4Entered) {
+                    nextBtn.style.visibility = "visible";
+                }
+                else {
+                    nextBtn.style.visibility = "hidden";
+                }
                 popUpBtn1.style.visibility = "visible";
                 popUpBtn2.style.visibility = "visible";
                 popUpBtn3.style.visibility = "visible";
@@ -77,7 +83,6 @@ function GoNext() {
                 popUpBtn2.style.animation = "haasakaEffect 0.8s 0.8s forwards";
                 popUpBtn3.style.animation = "haasakaEffect 0.8s 1.6s forwards";
                 popUpBtn4.style.animation = "haasakaEffect 0.8s 2.4s forwards";
-                nextBtn.style.visibility = "hidden";
                 setTimeout(() => {
                     popUpBtn1.style.animation = "0";
                     popUpBtn2.style.animation = "0";
@@ -119,9 +124,9 @@ function GoBack() {
     pageNum--;
     body.style.backgroundImage = `${imageBackrounds[pageNum]}`;
     nextBtn.style.visibility = "visible";
-    console.log(pageNum);
     switch(pageNum) {
         case 0:
+            nextBtn.style.visibility = "visible";
             backBtn.style.visibility = "hidden";
         case 1:
             popUpBtn1.style.visibility = "hidden";
@@ -176,6 +181,7 @@ function PopUp4() {
 }
 
 function ExitPopUp() {
+    body.removeEventListener("click" , ExitPopUp, true);
     blackBackground.style.visibility = "hidden";
     popUp1.style.visibility = "hidden";
     popUp2.style.visibility = "hidden";

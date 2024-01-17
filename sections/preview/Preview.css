@@ -68,7 +68,7 @@
 
 #nextBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -77,7 +77,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #nextBtn:hover { 
@@ -87,7 +87,7 @@
 #backBtn {
     visibility: hidden;
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 11.3vw;
     position: absolute;
     background: transparent;
@@ -96,7 +96,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #backBtn:hover { 
@@ -105,7 +105,7 @@
 
 #continueBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -115,7 +115,7 @@
     z-index: 1;
     visibility: hidden;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #continueBtn:hover { 

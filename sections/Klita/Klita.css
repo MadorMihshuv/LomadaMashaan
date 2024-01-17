@@ -66,7 +66,7 @@
 
 #nextBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -75,7 +75,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #nextBtn:hover { 
@@ -85,7 +85,7 @@
 #backBtn {
     visibility: hidden;
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 11.3vw;
     position: absolute;
     background: transparent;
@@ -94,7 +94,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #backBtn:hover { 
@@ -103,7 +103,7 @@
 
 #continueBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -113,7 +113,7 @@
     z-index: 1;
     visibility: hidden;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.3vh;
 }
 
 #continueBtn:hover { 
@@ -135,17 +135,17 @@
 
 #stage2 {
     top: 30vh;
-    left: 55.5vw;
+    left: 54vw;
 }
 
 #stage3 {
     top: 30vh;
-    left: 36vw;
+    left: 33vw;
 }
 
 #stage4 {
     top: 30vh;
-    left: 16.5vw;
+    left: 12vw;
 }
 
 #stage5 {
@@ -155,17 +155,17 @@
 
 #stage6 {
     top: 48vh;
-    left: 56vw;
+    left: 54.6vw;
 }
 
 #stage7 {
     top: 48vh;
-    left: 36.5vw;
+    left: 33.5vw;
 }
 
 #stage8 {
     top: 48vh;
-    left: 18.5vw;
+    left: 14vw;
 }
 
 @keyframes stagesComeIn {

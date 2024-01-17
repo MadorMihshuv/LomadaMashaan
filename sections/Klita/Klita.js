@@ -69,8 +69,8 @@ function GoNext() {
                 HideOrShowStages(hidden);
                 break;
             case 2:
-                continueBtn.style.visibility = "visible";
                 nextBtn.style.visibility = "hidden";
+                continueBtn.style.visibility = "visible";
                 break;
             default:
                 break;
@@ -86,7 +86,7 @@ function GoNext() {
         questionBackground.style.animation = "fadeInQuestions 1.5s forwards";
         setTimeout(() => {
             questionBackground.style.visibility = "hidden";
-            window.location.href = "/MainPage.html";
+            window.location.href = "/Exercise/Exercise.html";
         }, 3000);
     }
 }

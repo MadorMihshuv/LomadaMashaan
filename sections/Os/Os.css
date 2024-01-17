@@ -67,7 +67,7 @@
 
 #nextBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -76,7 +76,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.4vh;
 }
 
 #nextBtn:hover { 
@@ -86,7 +86,7 @@
 #backBtn {
     visibility: hidden;
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 11.3vw;
     position: absolute;
     background: transparent;
@@ -95,7 +95,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.4vh;
 }
 
 #backBtn:hover { 
@@ -104,7 +104,7 @@
 
 #continueBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -114,7 +114,7 @@
     z-index: 1;
     visibility: hidden;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.4vh;
 }
 
 #continueBtn:hover { 
@@ -173,28 +173,28 @@
 #text1 {
     position: absolute;
     left: 42vw;
-    top: 56.5vh;
+    top: 57.5vh;
     opacity: 0;
     width: 55vw;
-    height: 13.5vh;
+    height: 11vh;
 }
 
 #text2 {
     position: absolute;
     left: 41.4vw;
-    top: 60.15vh;
+    top: 61.5vh;
     opacity: 0;
     width: 55vw;
-    height: 13.5vh;
+    height: 11vh;
 }
 
 #text3 {
     position: absolute;
     left: 42.5vw;
-    top: 66.4vh;
+    top: 67.8vh;
     opacity: 0;
     width: 55vw;
-    height: 13.5vh;
+    height: 11vh;
 }
 
 @keyframes textFadeIn {
@@ -244,25 +244,25 @@
     top: 59.3vh;
     opacity: 0;
     width: 13.5vw;
-    height: 3.4vh;
+    height: 3.1vh;
 }
 
 #secondText2 {
     position: absolute;
     left: 57.2vw;
-    top: 65vh;
+    top: 65.6vh;
     opacity: 0;
     width: 39vw;
-    height: 3.5vh;
+    height: 3.1vh;
 }
 
 #secondText3 {
     position: absolute;
     left: 59vw;
-    top: 71vh;
+    top: 71.6vh;
     opacity: 0;
     width: 38vw;
-    height: 8vh;
+    height: 7.1vh;
 }
 
 #ice1 {
@@ -270,6 +270,7 @@
     left: 50vw;
     top: 40vh;
     width: 50vw;
+    height: 41vh;
     visibility: hidden;
 }
 
@@ -278,6 +279,7 @@
     left: 43vw;
     top: 40vh;
     width: 50vw;
+    height: 41vh;
     visibility: hidden;
 }
 
@@ -286,6 +288,7 @@
     left: 18vw;
     top: 40vh;
     width: 50vw;
+    height: 41vh;
     visibility: hidden;
 }
 
@@ -294,6 +297,7 @@
     left: -8vw;
     top: 40vh;
     visibility: hidden;
+    height: 41vh;
     width: 50vw;
 }
 

@@ -117,10 +117,10 @@ function GoNext() {
             case 2:
                 coffee.style.visibility = "hidden";
                 HideOrShowBubbles(visible);
-                bubble1.style.animation = "bubblesAnimation 0.8s forwards";
-                bubble2.style.animation = "bubblesAnimation 0.8s 0.8s forwards";
-                bubble3.style.animation = "bubblesAnimation 0.8s 1.6s forwards";
-                bubble4.style.animation = "bubblesAnimation 0.8s 2.4s forwards";
+                bubble1.style.animation = "bubblesAnimation 2s infinite";
+                bubble2.style.animation = "bubblesAnimation 2s 1s infinite";
+                bubble3.style.animation = "bubblesAnimation 2s 2s infinite";
+                bubble4.style.animation = "bubblesAnimation 2s 3s infinite";
 
                 break;
             case 3:

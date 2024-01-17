@@ -21,7 +21,7 @@ let flower5;
 const visible = "visible";
 const hidden = "hidden";
 
-const imageBackrounds = ['url("/assets/Sok/דירוגי\ שכר.png")' ,'url("/assets/Sok/לימודים.png")','url("/assets/Sok/קידום\ בדרגות\ שכר.png")'];
+const imageBackrounds = ['url("/assets/Sok/דירוגי\ שכר\ הסבר.png")' ,'url("/assets/Sok/דירוגי\ שכר.png")' ,'url("/assets/Sok/לימודים.png")','url("/assets/Sok/קידום\ בדרגות\ שכר.png")'];
 
 //Onload function
 window.onload = function() {
@@ -60,9 +60,9 @@ function Load() {
 function GoNext() {
     pageNum++;
     backBtn.style.visibility = "visible";
-    if(pageNum !== 3){
+    if(pageNum !== 4){
         body.style.backgroundImage = `${imageBackrounds[pageNum]}`;
-        if(pageNum === 1) {
+        if(pageNum === 2) {
             log1.style.visibility = "visible";
             log2.style.visibility = "visible";
             log3.style.visibility = "visible";
@@ -70,7 +70,7 @@ function GoNext() {
             log2.style.animation = "log2Move 1s 1s";
             log3.style.animation = "log3Move 1s 2s";
         }
-        else if(pageNum === 2) {
+        else if(pageNum === 3) {
             log1.style.visibility = "hidden";
             log2.style.visibility = "hidden";
             log3.style.visibility = "hidden";
@@ -86,9 +86,6 @@ function GoNext() {
             flower3.style.animation = "flowersAnimation 1s 2s forwards";
             flower4.style.animation = "flowersAnimation 1s 3s forwards";
         }
-        else if(pageNum === 3) {
-            HideOrShowFlowersAndText(hidden);
-        }
     }
     else if(sessionStorage.getItem("sectionNum") !== '4') {
         window.location.href = "/MainPage.html";
@@ -99,8 +96,8 @@ function GoNext() {
         questionBackground.style.visibility = "visible";
         questionBackground.style.animation = "fadeInQuestions 1.5s forwards";
         setTimeout(() => {
-            questionBackground.style.visibility = "hidden";
             window.location.href = "/Exercise/Exercise.html";
+            questionBackground.style.visibility = "hidden";
         }, 3000);
     }
 }
@@ -112,18 +109,20 @@ function GoBack() {
     nextBtn.style.visibility = "visible";
     if(pageNum === 0){
         backBtn.style.visibility = "hidden";
+    }
+    if(pageNum === 1){
         log1.style.visibility = "hidden";
         log2.style.visibility = "hidden";
         log3.style.visibility = "hidden";
     }
-    else if(pageNum === 1) {
+    else if(pageNum === 2) {
         continueBtn.style.visibility = "hidden";
         log1.style.visibility = "visible";
         log2.style.visibility = "visible";
         log3.style.visibility = "visible";
         HideOrShowFlowersAndText(hidden);
     }
-    else if(pageNum === 2){
+    else if(pageNum === 3){
         HideOrShowFlowersAndText(visible);
     }
 }

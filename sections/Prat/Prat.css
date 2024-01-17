@@ -65,7 +65,7 @@
 }
 #nextBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -74,7 +74,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.4vh;
 }
 
 #nextBtn:hover { 
@@ -84,7 +84,7 @@
 #backBtn {
     visibility: hidden;
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 11.3vw;
     position: absolute;
     background: transparent;
@@ -93,7 +93,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.4vh;
 }
 
 #backBtn:hover { 
@@ -102,7 +102,7 @@
 
 #continueBtn {
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -112,7 +112,7 @@
     z-index: 1;
     visibility: hidden;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.4vh;
 }
 
 #continueBtn:hover { 
@@ -122,7 +122,7 @@
 #returnBtn {
     visibility: hidden;
     position: relative;
-    top: 93vh;
+    top: 93.4vh;
     left: 3vw;
     position: absolute;
     background: transparent;
@@ -131,7 +131,7 @@
     cursor: pointer;
     z-index: 1;
     width: 7vw;
-    height: 5.7vh;
+    height: 5.4vh;
 }
 
 #returnBtn:hover { 
@@ -147,27 +147,27 @@
     top: 15vh;
     width: 22vw;
     left: 25vw;
-    height: 45vh;
+    height: 38vh;
 }
 
 #bubble2 {
     top: 45vh;
     left: 2vw;
     width: 22vw;
-    height: 45vh;
+    height: 38vh;
 }
 
 #bubble3 {
     top: 45vh;
     left: 48vw;
     width: 22vw;
-    height: 45vh;
+    height: 38vh;
 }
 
 #bubble4 {
     top: 25vh;
     left: 72vw;
-    height: 45vh;
+    height: 38vh;
     width: 22vw;
 }
 
@@ -175,11 +175,15 @@
 @keyframes bubblesAnimation {
     0% { 
         width: 22vw;
-        height: 45vh;
+        height: 38vh;
+    }
+    50% { 
+        width: 22.5vw;
+        height: 39vh;
     }
     100% {
-        width: 23vw;
-        height: 47vh;
+        width: 22vw;
+        height: 38vh;
     }
 }  
 
@@ -283,14 +287,14 @@
 
 #jellyfish2 {
     position: absolute;
-    left: 33vw;
-    top: 12vh;
+    left: 29vw;
+    top: 16vh;
     visibility: hidden;
     height: 35vh;
     opacity: 0.75;
-    transform: rotate(10deg);
-    width: 12vw;
-    height: 34vh;
+    transform: rotate(15deg);
+    width: 8ץ5vw;
+    height: 23vh;
 }
 
 #jellyfish3 {
@@ -307,7 +311,7 @@
 
 #coffee {
     position: absolute;
-    left: -0.5vw;
+    left: 0.8vw;
     transform: rotate(-20deg);
     visibility: hidden;
     top: 19vh;
@@ -320,7 +324,7 @@
         top: 19.5vh;
     }
     100% {
-        top: 18vh;
+        top: 17.3vh;
     }
 }
 
@@ -331,7 +335,7 @@
     visibility: hidden;
     opacity: 0;
     width: 90.8vw;
-    height: 19vh;
+    height: 16vh;
 }
 
 #halad2 {
@@ -341,27 +345,27 @@
     visibility: hidden;
     opacity: 0;
     width: 90.8vw;
-    height: 19vh;
+    height: 16vh;
 }
 
 #halad3 {
     position: absolute;
     left: 6.5vw;
     visibility: hidden;
-    top: 43vh;
+    top: 44vh;
     opacity: 0;
     width: 90.8vw;
-    height: 19vh;
+    height: 16vh;
 }
 
 #halad4 {
     position: absolute;
     left: 2vw;
-    top: 54.5vh;
+    top: 55.5vh;
     visibility: hidden;
     opacity: 0;
     width: 95.5vw;
-    height: 19vh;
+    height: 16vh;
 }
 
 #starFish1 {
@@ -369,7 +373,8 @@
     left: -0.3vw;
     top: 22.8vh;
     visibility: hidden;
-    height: 10vh;
+    height: 9vh;
+    width: 5vw;
 }
 
 #starFish2 {
@@ -377,7 +382,8 @@
     left: -0.3vw;
     top: 33vh;
     visibility: hidden;
-    height: 10vh;
+    height: 9vh;
+    width: 5vw;
 
 }
 
@@ -386,8 +392,8 @@
     left: -0.3vw;
     top: 47vh;
     visibility: hidden;
-    height: 10vh;
-
+    height: 9vh;
+    width: 5vw;
 }
 
 #starFish4 {
@@ -395,8 +401,8 @@
     left: -0.3vw;
     top: 57vh;
     visibility: hidden;
-    height: 10vh;
-
+    height: 9vh;
+    width: 5vw;
 }
 
 @keyframes halad1Animation {
@@ -495,42 +501,42 @@
 
 #teunot1 {
     position: absolute;
-    left: 8vw;
-    top: 7vh;
+    left: 45vw;
+    top: 35vh;
     opacity: 0;
     visibility: hidden;
-    width: 40vw;
-    height: 56vh;
+    width: 60vw;
+    height: 23vh;
 }
 
 #teunot2 {
     position: absolute;
-    left: 8vw;
-    top: 23vh;
+    left: 45vw;
+    top: 47vh;
     opacity: 0;
     visibility: hidden;
-    width: 40vw;
-    height: 56vh;
+    width: 60vw;
+    height: 23vh;
 }
 
 #teunot3 {
     position: absolute;
-    left: 8vw;
-    top: 39vh;
+    left: 45vw;
+    top: 59vh;
     opacity: 0;
     visibility: hidden;
-    width: 40vw;
-    height: 56vh;
+    width: 60vw;
+    height: 23vh;
 }
 
 #teunot4 {
     position: absolute;
-    left: 8vw;
-    top: 55vh;
+    left: 39.5vw;
+    top: 70vh;
     opacity: 0;
     visibility: hidden;
-    width: 40vw;
-    height: 56vh;
+    width: 60vw;
+    height: 23vh;
 }
 
 @keyframes teunotAnimation {
